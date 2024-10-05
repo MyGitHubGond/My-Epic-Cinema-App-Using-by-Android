@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    tools:context=".IntroActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1271dp"
+        android:layout_height="1206dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:src="@drawable/intro_pic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="840dp"
+        android:layout_height="80dp"
+        android:text="Epic Cinema Your"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="1287dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="828dp"
+        android:layout_height="93dp"
+        android:text="Watch Now or Watch Later"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="1628dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="828dp"
+        android:layout_height="164dp"
+        android:text="The goal ofEpic Cinema Entertainment is to simplify
+        the movie-watching experience, making it easier for  users to stay
+         informed about new releases and seamlessly book tickets from their phones."
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="1797dp" />
+
+    <Button
+        android:id="@+id/getinBtn"
+        style="@android:style/Widget.Button"
+        android:layout_width="1003dp"
+        android:layout_height="177dp"
+        android:background="@drawable/orange_button_background"
+        android:focusable="auto"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="2036dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="1416dp"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="828dp"
+        android:layout_height="95dp"
+        android:text="Favorite Show"
+        android:textColor="@color/orange"
+        android:textSize="48sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="1450dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
